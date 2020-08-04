@@ -12,7 +12,7 @@ def line (array)
       new_array.push "#{position_in_line}. + #{item}"
     end
     first_puts = "The line is currently: "
-    puts first_puts + new_array.join
+    puts first_puts
 
 
   end
