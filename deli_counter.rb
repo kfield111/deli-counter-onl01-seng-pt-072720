@@ -6,10 +6,9 @@ def line (array)
     break
   end
   while array != []
-        puts "The line is currently: " + "#{position_in_line}"
-        array.each_with_index do |item, index|
+          array.each_with_index do |item, index|
           position_in_line = index + 1
-          puts "#{position_in_line}."
         end
+        puts "The line is currently: " + position_in_line
   end
 end
