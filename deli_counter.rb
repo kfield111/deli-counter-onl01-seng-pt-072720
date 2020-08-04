@@ -11,6 +11,7 @@ def line (array)
       position_in_line = array.index + 1
       place = "#{position_in_line}. #{array.item}."
       array << place
+    end
     break
   end
 end
