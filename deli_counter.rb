@@ -8,7 +8,7 @@ def line (array)
   while array != []
       array.each_with_index do |item, index|
       position_in_line = array.index + 1
-      return place = "#{position_in_line}. #{array.item}."
+      return place = "#{position_in_line}. #{item}."
     end
     puts "The line is currently: " + place
     break
