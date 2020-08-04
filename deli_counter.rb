@@ -19,7 +19,7 @@ end
 
 def take_a_number (array, name)
   array.push "#{name}"
-  binding.pry
+  #binding.pry
   if array = []
     number_in_line = "1"
     puts "Welcome, #{name}. You are number #{number_in_line} in line"
