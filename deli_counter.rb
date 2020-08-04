@@ -11,7 +11,7 @@ def line (array)
     end
     first_puts = "The line is currently: "
     puts first_puts + 
-      
-        
+
+
   end
 end
