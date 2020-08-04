@@ -20,4 +20,5 @@ def take_a_number (array, name)
   if array = []
     number_in_line = array.index (name) + 1
     puts "Welcome, #{name}. You are number #{number_in_line} in line"
+  end
 end
