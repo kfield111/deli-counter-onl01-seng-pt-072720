@@ -14,3 +14,5 @@ def line (array)
     puts first_puts + new_array.join(" ")
   end
 end
+
+def take_a_number ()
