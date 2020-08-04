@@ -4,7 +4,7 @@ def line (array)
   while array == []
     puts "The line is currently empty."
     break
-  while array != 0
+  while array != []
     puts "The line is currently: + #{position_in_line}"
     array.each_with_index do |item, index|
     spot_in_line = array.index + 1
