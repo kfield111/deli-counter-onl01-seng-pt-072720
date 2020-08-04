@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line (array)
-  if array == nil
+  while array == []
     puts "The line is currently empty."
   end
 end
