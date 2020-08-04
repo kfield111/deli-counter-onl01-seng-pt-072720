@@ -6,6 +6,7 @@ def line (array)
     break
   end
   while array != []
-    puts "The line is currently: "    
+    puts "The line is currently: "
+    break   
   end
 end
