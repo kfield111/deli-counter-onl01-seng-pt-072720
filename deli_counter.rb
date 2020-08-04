@@ -22,7 +22,7 @@ def take_a_number (array, name)
   #binding.pry
   array.each_with_index do |item, index|
     number_in_line = index +1
-  if array = []
+
     puts "Welcome, #{name}. You are number #{number_in_line} in line."
   end
 end
