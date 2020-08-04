@@ -24,4 +24,5 @@ def take_a_number (array, name)
     number_in_line = "1"
     puts "Welcome, #{name}. You are number #{number_in_line} in line"
   end
+  array
 end
