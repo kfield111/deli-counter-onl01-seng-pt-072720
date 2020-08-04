@@ -9,6 +9,7 @@ def line (array)
     spot_in_line = array.index + 1
     name = array.item
     puts "The line is currently: " + "#{spot_in_line}. #{name}."
+    break
   end
 end
 
