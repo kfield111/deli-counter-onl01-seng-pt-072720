@@ -1,6 +1,6 @@
 def line (people_in_line)
   while people_in_line == nil
-    return "The line is currently empty"
+    puts "The line is currently empty"
   end
 end
 
