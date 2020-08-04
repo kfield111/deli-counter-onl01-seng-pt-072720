@@ -21,7 +21,7 @@ def take_a_number (array, name)
   array.push "#{name}"
   #binding.pry
   array.each_with_index do |item, index|
-    number_in_line = index +1
+    number_in_line = index + 1
     puts "Welcome, #{item}. You are number #{number_in_line} in line."
   end
 end
