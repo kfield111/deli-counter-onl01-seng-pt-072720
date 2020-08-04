@@ -1,5 +1,5 @@
-def line
-  while nil
+def line (people_in_line)
+  while people_in_line == nil
     return "The line is empty"
   end
 end
