@@ -6,7 +6,7 @@ def line (array)
     break
   end
   while array != []
-      array.each_with_index do |item, index|
+      array << array.each_with_index do |item, index|
       position_in_line = array.index + 1
       return place = "#{position_in_line}. #{item}."
     end
