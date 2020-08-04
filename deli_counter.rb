@@ -23,7 +23,7 @@ def take_a_number (array, name)
 end
 
 def now_serving (array, name)
-  if array == [] || name = nil
+  if array == []
     puts "The line is currently empty."
 else puts "Currently serving #{array.first}"
   array.shift
