@@ -6,4 +6,3 @@ def line (array)
     break
   end
 end
-
