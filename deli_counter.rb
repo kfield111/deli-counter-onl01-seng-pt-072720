@@ -22,11 +22,10 @@ def take_a_number (array, name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
-def now_serving (array, name)
+def now_serving (array)
   if array == []
     puts "The line is currently empty."
-  end
-puts "Currently serving #{array.first}"
+else puts "Currently serving #{array.first}"
   array.shift
 end
 end
