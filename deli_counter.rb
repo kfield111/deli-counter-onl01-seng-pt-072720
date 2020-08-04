@@ -16,7 +16,5 @@ def line (array)
 end
 
 def take_a_number (array, name)
-  if array = []
-    array.push "#{name}"
-  end
+  array.push "#{name}"
 end
