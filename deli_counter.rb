@@ -17,6 +17,6 @@ end
 
 def take_a_number (array, name)
   if array = []
-    array.push "#{name}"
+    array << "#{name}"
   end
 end
